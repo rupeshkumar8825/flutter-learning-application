@@ -36,4 +36,16 @@ generally have to run the emulators via CLI.
 
 ### Running Emulators via CLI
 Follow the below commands for running the emulators via CLI: 
-- 
+- **flutter doctor** command which checks the health of the flutter. Make sure that everything
+is setup and nothing is pending.
+- **flutter emulators** - will list down all the emulators which are available. 
+- **flutter emulators --launch <emulator_id>** this will launch the emulator given the emulator id
+- **flutter run** command will run the project
+- **r** press r in the terminal if the project is already running to enable the hot reload feature
+
+
+**Note :-** that if we are running the project via CLI the hot reload option will not work and we will
+have to enter **r** command for explicitly hot reloading. In order to leverage the hot reload functionality
+we will have to run the flutter project via visual studio code editor itself. Please make sure that the 
+relevant settings are already configured for hot reload. Otherwise you may refer to docs or stack overflow
+links to configure these settings.
