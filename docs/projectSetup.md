@@ -49,3 +49,8 @@ have to enter **r** command for explicitly hot reloading. In order to leverage t
 we will have to run the flutter project via visual studio code editor itself. Please make sure that the 
 relevant settings are already configured for hot reload. Otherwise you may refer to docs or stack overflow
 links to configure these settings.
+
+
+**Resources :-** For learning more about the different CLI commands refer to this particular link: 
+[Common CLI commands](https://mailharshkhatri.medium.com/flutter-cli-commands-every-developer-should-know-8b0c4cfe1827)
+ 
