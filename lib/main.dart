@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+
+
+/// Flutter basic
+/// 
+/// 
+
 void main() {
   runApp(MyApp());
 }
@@ -10,6 +16,8 @@ void main() {
 // so lets define a class for this purpose
 class MyApp extends StatelessWidget
 {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return (MaterialApp(
@@ -19,7 +27,10 @@ class MyApp extends StatelessWidget
             Text('Hello world'),
             Text('This is a column widget which is used to learn flutter'),
             Text("this is some random thingy here"),
-            Text("this is some random thingy here")
+            Text("this is some random thingy here"), 
+            Text("This is test application of flutter for learning purpose"),
+            Text("This is test application of flutter for learning purpose"),
+            
           ],
         ),
       ),
